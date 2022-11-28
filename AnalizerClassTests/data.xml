@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestList>
+	<ValidData incomingData="-" expected="true"/>
+	<ValidData incomingData="*" expected="true"/>
+	<ValidData2 incomingData="1-" expected="1/"/>
+	<ValidData2 incomingData="*+" expected="*/"/>
+	<InValidData incomingData="F" expected="false"/>
+	<InValidData incomingData="d" expected="false"/>
+	<InValidData2 incomingData="1" expected="1"/>
+	<InValidData2 incomingData="-6" expected="-6"/>
+</TestList>
